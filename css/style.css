@@ -15,18 +15,20 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display:grid;
+    background-position: relative ;
 
 
 }
-:is( .nav,.ul,li ) {
+:is( .nav,.ul,li,.a ) {
     border-right: 2px solid;
-    Border-Color:rgba(112,112,112,1);
+    Border-Color:rgba(112,112,112,1) !important;
     border-width:1px !important;
     padding: 18px 0;
     display: block;
     text-decoration: none;
     text-align: center;
     padding: 10px;
+    list-style: none;
 } 
 /*nav li{
     padding: 0;
@@ -40,7 +42,7 @@ body{
 img[alt="link"]{
  width: 400px;
  height:400px;
- /*margin: 10px;*/
+ margin: 8px;
  display: inline-block;
  position: relative;
  cursor: pointer;
